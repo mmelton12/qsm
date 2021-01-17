@@ -10,7 +10,8 @@
           return $regular_price;
   }
 
-   
+
+// REMOVING THIS LINE AND FINAL } AUTOMATICALLY ADDS DISCOUNT
   function assessmentdiscount () {
 
   // Generating dynamically the product "sale price"
