@@ -1,0 +1,50 @@
+<script>
+  $214(document).ready(function() {
+    $214(".closeCalculator").css("display", "none");
+    $214(".tutoriallocked").css("display", "none");
+    $214(".tutorialunlocked").css("display", "block");
+    console.log("Assessment Complete. Discount Applied.");
+  });
+</script>
+<script>
+  $214(".continueclosecalculator").click(function() {
+    $214(".spu-close-popup").trigger("click");
+  });
+</script>
+<div class="resultsbackground">
+  <div class="resultsheader" style="padding-bottom: 20px;" align="center">Emergency Preparedness Rating: Excellent</div>
+  <div class="gaugeresize" align="center">
+    <div class="gauge">
+      <div class="category poor"><span class="char">P</span><span class="char">o</span><span class="char">o</span><span class="char">r</span></div>
+      <div class="category fair"><span class="char">F</span><span class="char">a</span><span class="char">i</span><span class="char">r</span></div>
+      <div class="category good"><span class="char">G</span><span class="char">o</span><span class="char">o</span><span class="char">d</span></div>
+      <div class="category excellent"><span class="char">E</span><span class="char">x</span><span class="char">c</span><span class="char">e</span><span class="char">l</span><span class="char">l</span><span class="char">e</span><span class="char">n</span><span class="char">t</span></div>
+      <div class="needle"> </div>
+    </div>
+  </div>
+  <div class="resultsdivider" style="margin-top: -10px;"> </div>
+  <div class="resultscopy fade-in1">Off the charts! You have taken excellent steps to prepare for an emergency, and have properly planned for a life transition!</div>
+  <div class="fade-in2">
+    <div class="resultsdivider"> </div>
+    <div class="resultscopy">Take the next step and learn how the Emergency Alert Sticker together with your phone could help save your life, or the life of a loved one.</div>
+  </div>
+  <div class="fade-in3" align="center">
+    <div class="resultsdivider" style="margin-top: 8px;"> </div>
+    <div>
+      <div class="resultsheader" align="center">Emergency Alert Sticker Discount Applied!</div>
+    </div>
+    <div style="padding: 15px;"><a id="closeCalculatorResults" class="spu-close-convert lockedtutorial continueclosecalculator" style="padding: 10px 30px 10px 30px !important;" href="../../#discountapplied" data-x-toggle-close="1">CONTINUE</a></div>
+    <div class="spu-close-popup" style="visibility: hidden;" align="">[spu-close class="" text="" align="" conversion="false"]</div>
+  </div>
+</div>
+<style>
+  @keyframes needle {
+    0% {
+      transform: rotate(0deg)
+    }
+
+    100% {
+      transform: rotate(90deg)
+    }
+  }
+</style>
