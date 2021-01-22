@@ -1,5 +1,7 @@
 // MAKE ALL OF THE BELOW WORK ONLY IF QUIZ IS SUBMITTED, OTHERWISE, IGNORE.
 
+// ANOTHER OPTION WOULD BE TO MAKE ALL OF THE BELOW ACTIVE IF THE USER CLICKS A BUTTON IN THE RESULTS PAGE.
+
 
 
 add_filter( 'woocommerce_product_get_regular_price', 'custom_dynamic_regular_price', 10, 2 );
