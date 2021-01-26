@@ -1,3 +1,10 @@
+@LoicTheAztec - If you are reading this, I wanted to express my reverence and appreciation for your contributions to stackoverflow and myself as well.
+
+To see it in action, you can visit https://staging59.emergencyinfoplan.com - when a user takes the assessment and submits their email, the coupon code is successfully 
+generated. I want to reflect that in the product modal (single pack / family pack), by way of a discount notice, but with the code you provided, it's still not
+showing up. I wanted to share the entire code so you could better understand... 
+
+
 // ASSESSMENT DISCOUNT
 // =============================================================================
 
